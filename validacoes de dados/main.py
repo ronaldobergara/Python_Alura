@@ -1,7 +1,7 @@
+from documento import Documento
 
-from Cpf import Cpf
-
-cpf = Cpf("11111111111")
-
+cpf = Documento.cria_documento("79679593029")
 print(cpf)
 
+cnpj = Documento.cria_documento("13191520000170")
+print(cnpj)
