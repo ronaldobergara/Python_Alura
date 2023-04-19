@@ -1,7 +1,10 @@
-from documento import Documento
+from telefones import Telefones
 
-cpf = Documento.cria_documento("79679593029")
-print(cpf)
+telefone = "55(21)98749874"
 
-cnpj = Documento.cria_documento("13191520000170")
-print(cnpj)
+telefone_objeto = Telefones(telefone)
+print(telefone_objeto)
+
+
+
+
